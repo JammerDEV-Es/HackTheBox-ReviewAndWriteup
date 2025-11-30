@@ -30,6 +30,16 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sun Nov 30 12:46:28 2025 -- 1 IP address (1 host up) scanned in 2.25 seconds
+```
+After that you'll need to do a `nmap` UDP scan, and then you will discover what you will need to use, when you see the UDP port.
+
+---
+## Final Review: 
+I liked the machine, it's not my first time on HackTheBox. 
+I've completed some before, but my account is gone and the machines are no longer active. 
+
+But I liked it, I found it fun. Good luck completing it.
+
 
 
 
