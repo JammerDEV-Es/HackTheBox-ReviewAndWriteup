@@ -55,7 +55,7 @@ PORT     STATE         SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 124.26 seconds
 ```
 ---
-## Final Review: 
+## 📝 Final Review: 
 I liked the machine, it's not my first time on HackTheBox. 
 I've completed some before, but my account is gone and the machines are no longer active. 
 
