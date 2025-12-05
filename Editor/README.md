@@ -76,7 +76,7 @@ After doing everything I said before, you have to connect via `SSH` to a user wi
 
 I liked it, but it got complicated and I spent a couple of hours trying to figure out what to do.
 
-it was difficult for my second lab. I made a brief summary, in case you want to do it again to recap, and for users who want a guide.
+it was difficult for my second lab. I made a brief summary, in case I want to do it again to recap, and for users who want a guide.
 
 
 
