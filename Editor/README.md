@@ -70,7 +70,15 @@ find the `password`, this is the path `/usr/lib/xwiki/WEB-INF`
 I won't say anything more. I've made the first few things easier, since they're not so complicated. Now I'll explain what I found so difficult.
 
 ## What was the most complicated part?
-After doing everything I said before, you have to connect via `SSH` to a user with the IP address at the end, in this format `******@10.10.11.80`. When you do that and enter the password you should have found by searching with grep, you will get the `flag.txt`, but now the complicated part is to escalate privileges.
+After doing everything I said before, you have to connect via `SSH` to a user with the IP address at the end, in this format `******@10.10.11.80`. When you do that and enter the password you should have found by searching with grep, you will get the `flag.txt`, but now the complicated part is to escalate privileges. I won't spoil anymore.
+
+## 📝 Final Review: 
+
+I liked it, but it got complicated and I spent a couple of hours trying to figure out what to do.
+
+it was difficult for my second lab. I made a brief summary, in case you want to do it again to recap, and for users who want a guide.
+
+
 
 
 
