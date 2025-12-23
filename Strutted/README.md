@@ -113,9 +113,8 @@ After entering those five commands one by one, you'll need to enter a command to
 ## 📝 Final Review:
 And that's it. This isn't so much a write-up as it is a superficial guide on how to complete the machine. There are parts where you have to look up the details or ask yourself why something is used, or why the decision was made to use tcpdump. Completing the machines just to get the flag isn't worthwhile, which is why I'm writing the guide this way. I'm not writing everything out, but I'm giving hints.
 
-Good luck completing it!
-
 I found the machine somewhat complicated, but not as difficult as Eighteen. For being in the Medium category, it wasn't too hard.
 
+Good luck completing it!
 
 
