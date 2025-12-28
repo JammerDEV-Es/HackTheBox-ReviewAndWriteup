@@ -17,6 +17,7 @@
 ### - [Expressway (Linux) (10.10.11.87)](https://github.com/JammerDEV-Es/HTB-Hack-The-Box-/tree/main/Expressway)
 ### - [Editor (Linux) (10.10.11.80)](https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/tree/main/Editor)
 ### - [Eighteen (Windows) (10.10.11.95)](https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/tree/main/Eighteen)
+### - [Monitors Four (Windows) (10.10.11.99)](https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/tree/main/Monitors%20Four)
 
 ##
 
