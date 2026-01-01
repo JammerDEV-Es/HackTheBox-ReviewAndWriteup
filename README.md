@@ -31,5 +31,21 @@
 
 ### - [Previous (Linux) (10.10.11.83)](https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/tree/main/Previous)
 
+##
 
+<div align="center">
+</div>
+<img width="180" height="180" src="https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/blob/main/Strutted/Images/HARD.png">
+</p>
+
+### Any machine yet.
+
+##
+
+<div align="center">
+</div>
+<img width="260" height="260" src="https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/blob/main/Strutted/Images/INSANE.png">
+</p>
+
+### - [White Rabbit (Linux) (10.10.11.63)](https://github.com/JammerDEV-Es/HackTheBox-ReviewAndWriteup/tree/main/White%20Rabbit)
 
