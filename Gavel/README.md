@@ -17,7 +17,7 @@ Host: 10.10.11.97 ()    Status: Up
 Host: 10.10.11.97 ()    Ports: 22/open/tcp//ssh///, 80/open/tcp//http///    Ignored State: closed (65533)
 # Nmap done at Sun Jan 11 14:32:49 2026 -- 1 IP address (1 host up) scanned in 13.30 seconds
 ```
-The page tells us that it has port 22 and port 80 open, so the active services are HTTP and SSH. Let's delve deeper into these ports, as always, to see what else we can learn:
+The page tells us that it has port 22 and port 80 open, so the active services are HTTP and SSH. 
 
 ```java
 # Nmap 7.98 scan initiated Sun Jan 11 14:37:53 2026 as: /usr/lib/nmap/nmap --privileged -sCV -p22,80 -oN targeted 10.10.11.97
