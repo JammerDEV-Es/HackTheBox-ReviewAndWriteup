@@ -43,4 +43,4 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/.
 # Nmap done at Sun Jan 11 14:38:03 2026 -- 1 IP address (1 host up) scanned in 9.30 seconds
 ```
-We can see that it reports something like there's a repository hosted on the page with the /git subdirectory, but it's nothing important; there's nothing there that can give us privileged information.
+We can see that it reports something like there's a repository hosted on the page with the /git subdirectory.
