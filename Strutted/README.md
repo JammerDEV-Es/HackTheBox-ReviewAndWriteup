@@ -82,7 +82,7 @@ Content-Disposition: form-data; name="top.uploadFileName"
 ```
 I set mine up like this: "../../shell.jsp",You just need to enter the URL like this `http://strutted.htb/shell.jsp`
 
-Afterward, you'll need to create a bash script (".sh") in the "/dev/shm/" directory to perform a reverse shell in netcat on port 443.
+Afterward, you'll need to create a bash script (".sh") in the "/dev/shm/" directory to perform a reverse shell in netcat on port 443. The command to gain root access is "bash -p" (the -p parameter means privilege).
 
 
 
